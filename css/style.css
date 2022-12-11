@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  min-height: 100vh;
+  background: #050a0e;  
+}
+
+button {
+  color: #fff;
+  background: #050a0e;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px; 
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  transition: all 0.1s ease;
+  border: 2px solid #02f0fc;
+  background: #01e3ef;
+  box-shadow: 0 0 5px #01e3ef,
+              0 0 10px #01e3ef;
+}
+/* Button 1 */
+.btn-1 {
+  border: 2px solid #01e3ef;  
+}
+
+.btn-1:hover {
+  color: #fff;
+  background: #049ea6;
+  border: 1px solid #049ea6;
+  box-shadow: 0 0 10px #01e3ef,
+              0 0 40px #01e3ef,
+              0 0 80px #01e3ef,
+              0 0 90px #01e3ef;
+  transition-delay: .1s;
+}
+/* Button 2 */
+.btn-2 {
+  border-radius: 3px;
+}
+
+.btn-2:hover {
+  color: #fff;
+  background: #049ea6;
+  border: 1px solid #01838a;
+  box-shadow: 0 0 10px #01e3ef,
+              0 0 40px #01e3ef,
+              0 0 80px #01e3ef;
+  transition-delay: .1s;
+}
+/* Button 3 */
+.btn-3 {
+  border-radius: 6px;
+}
+
+.btn-3:hover {
+  color: #fff;
+  background: #049ea6;
+  border-top: 1px solid #60f7ff;
+  border-left: 1px solid #60f7ff;
+  border-right: 1px solid #049ea6;
+  border-bottom: 1px solid #049ea6;
+  box-shadow: 0 0 10px #01e3ef,
+              0 0 40px #01e3ef,
+              0 0 80px #01e3ef;
+  transition-delay: .1s;
+}
+/* Button 4 */
+.btn-4 {
+  border-radius: 12px;
+}
+
+.btn-4:hover { 
+  color: #fff;
+  background: #049ea6;
+  border: 1px solid #60f7ff;
+  box-shadow: 0 0 10px #01e3ef,
+              0 0 40px #01e3ef,
+              0 0 80px #01e3ef;
+  transition-delay: .1s;
+}
+/* Button 5 */
+.btn-5 {
+  border-radius: 24px;
+}
+
+.btn-5:hover {
+  color: #fff;
+  background: #01e3ef;
+  border: 1px solid #60f7ff;
+  box-shadow: 0 0 10px #01e3ef,
+              0 0 40px #01e3ef,
+              0 0 80px #01e3ef;
+  transition-delay: .1s;
+}
+/* Button 6 */
+.btn-6 {
+  border-radius: 100px;
+}
+
+.btn-6:hover { 
+  color: #fff;
+  background: linear-gradient(#69f7fe, #01c6d1, #69f7fe);
+  border: 1px solid #60f7ff;
+  box-shadow: 0 0 10px #01e3ef,
+              0 0 40px #01e3ef,
+              0 0 80px #01e3ef;
+  transition-delay: .1s;
+}
+/* Button 7 */
+.btn-7 {
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7:hover {
+  color: #fff;
+  background: linear-gradient(40deg,#01c6d1, #69f7fe,#01c6d1);
+  border: 1px solid #01e3ef;
+  box-shadow: 0 0 10px #01e3ef,
+              0 0 40px #01e3ef,
+              0 0 80px #01e3ef;
+  transition-delay: .1s;
+}
+/* Button 8 rounded*/
+.btn-8 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 20px;
+  background: linear-gradient(#01c6d1, #69f7fe);
+}
+
+.btn-8:hover {
+  color:#fff;
+  background: linear-gradient(#69f7fe, #01c6d1);
+  box-shadow: 0 0 10px #01e3ef,
+              0 0 40px #01e3ef,
+              0 0 80px #01e3ef;
+  transition-delay: .1s;
+}
